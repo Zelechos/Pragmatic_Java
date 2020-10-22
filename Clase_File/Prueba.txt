@@ -1,0 +1,6 @@
+
+
+def joder():
+	print("hola")
+
+joder()
