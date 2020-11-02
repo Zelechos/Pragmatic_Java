@@ -5,20 +5,68 @@ import java.io.File;
 public class Clase_File {
 
     public static void main(String[] args) {
+            
+    //Acordarse de poner la extension del Archivo que crearas
+            File archivo = new File("Prueba1.txt");
+            
+            if(archivo.exists()){
+                System.out.println("Si Existe el archivo");
+            }else{
+                System.out.println("No Existe el archivo");
+            }
+            System.out.println("***********************************************************");
+            
 
-        //Ruta Absoluta Funciona aunque el Archivo no este adentro del Proyecto
-//File Archivo = new File("C:\\Users\\Zelec\\OneDrive\\Documentos\\NetBeansProjects\\Clase_File\\Prueba.txt");
+    //Ruta Absoluta Funciona aunque el Archivo no este adentro del Proyecto
+    //File Archivo = new File("C:\\Users\\Zelec\\OneDrive\\Documentos\\NetBeansProjects\\Clase_File\\Prueba.txt");
 
             File Archivo = new File("C:\\Users\\Zelec\\OneDrive\\Documentos\\NetBeansProjects\\Clase_File\\Prueba.txt");
 
-        //Ruta Relativa (Funciona si el archivo esta adentro del Proyecto)
-            File Directorio = new File("Prueba");
+    //Ruta Relativa (Funciona si el archivo esta adentro del Proyecto)
+            File Directorio = new File("Prueba.txt");
             
 
         if (Archivo.exists()){
             System.out.println("El Archivo Existe.");
             
             System.out.println("Ruta Absoluta del Archivo : "+Archivo.getAbsolutePath());
+            
+            //Para saber si es un Archivo
+            System.out.println("¿Es un Archivo?: ");
+            if(Archivo.isFile()){
+                System.out.println("Si Efectivamente es un Archivo ...");
+            }else{
+                System.out.println("No Definitivamente no es un Archivo ...");
+            }
+             
+            //Para saber si es un Directorio
+            System.out.println("¿Es un Directorio?: ");            
+            if(Archivo.isDirectory()){
+                System.out.println("Si Efectivamente es un Directorio mas conocido como Carpeta ...");
+            }else{
+                System.out.println("No Definitivamente no es un Directorio ...");
+            }
+
+            //Para Saber si el archivo se puede leer
+            System.out.println("¿El Achivo se Puede Leer? : ");
+            if(Archivo.canRead()){
+                System.out.println("Si el Archivo se Puede leer.");
+            }else{
+                System.out.println("No se Puedes Leer el Archivo.");
+            }
+            
+            //Para saber si podemos ejecutar el Archivo
+            System.out.println("¿Se puede Ejecutar el Archivo?");
+            if(Archivo.canExecute()){
+                System.out.println("Si el Archivo se puede Ejecutar ...");
+            }else{
+                System.out.println("No el Archivo no se puede Ejecutar ... ");
+            }
+            
+            //Para saber el nombre del Archivo
+            System.out.println("El Nombre del Archivo es : "+Archivo.getName());
+
+            
             
         }else{
             System.out.println("El Archivo no Existe.");
@@ -27,9 +75,8 @@ public class Clase_File {
         
         
         System.out.println("***************************************************************");            
-        
-        
             
+       
         if (Directorio.exists()) {//Si el Archivo Existe 
             System.out.println("El Directorio Existe");
             
