@@ -332,7 +332,7 @@ public class Write_File {
     
     File README;
     
-    
+    //Metodo para Crear un Archivo
     private void CreateFile(){
         README =  new File("README.md");
         
@@ -347,6 +347,7 @@ public class Write_File {
         }
     }
     
+    //Metodo para Escribir Texto al Archivo
     private void WriteFile(){
         try {
             FileWriter writing = new FileWriter(README);
@@ -357,6 +358,7 @@ public class Write_File {
         }
     }
     
+    //Metodo para Agregar Texto al Archivo
     private void AddText(){
         
         try {
@@ -366,8 +368,6 @@ public class Write_File {
         } catch (IOException ex) {
             System.err.println("Error could not write to file...\n"+ex);
         }
-        
-        
     }
     
     
