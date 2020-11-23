@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Portafolio 0 Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hola Mundo, <br>Soy <span>Alex Tumiri Huanca</span></h2><br>
+            <p>
+                Soy un Programador de Paginas Web y trabajo como freelancer para 
+                proyectos de todo tipo tengo 3 años de experiencia en Frontend y 
+                2 años en Backend , trabajo como fullstack mi pasion es programar 
+                y diseñar paginas web mi framework favorito es React JS , tambien 
+                me tengo experiencia y mi mayor pasion es la Programacion.
+            </p>
+            <a href="#">Saber mas</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/alex.tumirihuanca.3"><img src="img/facebook.png"></a></li>
+            <li><a href="https://www.youtube.com/watch?v=7bNOPmvSNlY"><img src="img/twitter.png"></a></li>
+            <li><a href="https://github.com/Zelechos"><img src="img/linkedin.png"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li><br>
+            <li><a href="#">About</a></li><br>
+            <li><a href="#">Services</a></li><br>
+            <li><a href="#">Portafolio</a></li><br>
+            <li><a href="#">Contacts</a></li><br>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+
+    </script>
+    
+</body>
+</html>

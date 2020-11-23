@@ -28,7 +28,7 @@ public class Clase_File {
             File Archivo = new File("C:\\Users\\Zelec\\OneDrive\\Documentos\\NetBeansProjects\\Clase_File\\Prueba.txt");
 
     //Ruta Relativa (Funciona si el archivo esta adentro del Proyecto)
-            File Directorio = new File("Prueba.txt");
+            File Directorio = new File("Prueba");
             
 
         if (Archivo.exists()){

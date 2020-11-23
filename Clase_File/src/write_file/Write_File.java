@@ -10,8 +10,6 @@ import java.io.IOException;
 
 public class Write_File {
 
-    
-    
     String TextMd = "### Features\n" +
 "\n" +
 "- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);\n" +
@@ -380,7 +378,6 @@ public class Write_File {
         Archivo.CreateFile();
         //Archivo.WriteFile();
         Archivo.AddText();
-        
         
     }
     
