@@ -28,18 +28,13 @@ public class Exercise_2 {
             
             if(Numeros[iterador] == 0 ){
                 Contador++;
-            }
-            
-            if(Numeros[iterador] > 0){
+            }else if(Numeros[iterador] > 0){
                 Media_P += Numeros[iterador];
                 Cont_P++;
-            }
-            
-            if(Numeros[iterador] < 0){
+            }else if(Numeros[iterador] < 0){
                 Media_N += Numeros[iterador];
                 Cont_N++;
             }
-            
         }
         
         Resp_N = Media_N/Cont_N;
