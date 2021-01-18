@@ -37,11 +37,31 @@ public class Exercise_2 {
             }
         }
         
-        Resp_N = Media_N/Cont_N;
-        Resp_P = Media_P/Cont_P;
-        System.out.println("La Media de Positivos es : "+ Resp_P);
-        System.out.println("La Media de Negativos es : "+ Resp_N);
-        System.out.println("La Cantida de Ceros es : "+Contador);
+        
+        //Para Ver si hay numeros Positivos
+        if(Cont_P == 0){
+            System.err.println("No hay numeros positivos para sacar la media . . . ");
+        }else{
+            Resp_P = Media_P/Cont_P;
+            System.out.println("La Media de Positivos es : "+ Resp_P);
+        }
+        
+        //Para Ver si hay numeros Negativos        
+        if(Cont_N == 0){
+            System.err.println("No hay numeros negativos para sacar la media . . . ");
+        }else{
+            Resp_N = Media_N/Cont_N;
+            System.out.println("La Media de Negativos es : "+ Resp_N);
+        }
+              
+        //Para Ver si existen Ceros
+        if(Contador == 0){
+            System.err.println("NO introdujo Ceros en el arreglo . . .");
+        }else{
+            System.out.println("La Cantidas de Ceros es : "+Contador);
+        }
+
+      
     }
     
 }
