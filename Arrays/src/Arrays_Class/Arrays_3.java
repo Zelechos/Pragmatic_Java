@@ -1,13 +1,14 @@
 package Arrays_Class;
-
-import java.util.Scanner;
 /*
   @author Pragmatic Coder
   Github: https://github.com/Zelechos
 */
+import java.util.Scanner;
+
 public class Arrays_3 {
 
     public static void main(String[] args) {
+        
         Scanner input = new Scanner(System.in);
 
         //Como Crear varios arreglos de un mismo valor
@@ -18,14 +19,13 @@ public class Arrays_3 {
         int Edades[] , Meses_Experiencia[],Cantidad_de_Usuarios;
         String Nombres[] , Apellidos[], Profesion[], Ingreso , Cuenta = "ether";
        
-        //Bucle Di while
+        //Bucle Do while
         do{
-            System.err.println("Tu eres ether ???");
-            System.err.println("Bienvenido Introduzca su NickName para saber : ");
+            System.err.print("Bienvenido Introduzca su NickName para Ingresar : ");
             Ingreso = input.next();
-        }while(!Ingreso.equals(Cuenta));
+        }while(!Ingreso.equals(Cuenta));//Si es igual Ingreso a la Cuenta entonces Ingresara 
         
-        //Introducimos la cnatidad de datos de los Arreglos
+        //Introducimos la cantidad de datos de los Arreglos
             System.err.println("Bienvenido ether!!");
             System.err.print("Digite la cantidad de usuarios : ");
             Cantidad_de_Usuarios = input.nextInt();
@@ -39,7 +39,7 @@ public class Arrays_3 {
         
             //Insertamos los datos de los usuarios
             System.out.println("Digite los datos personales del usuario :");
-            for(int Iterador = 0; Iterador<Cantidad_de_Usuarios;Iterador++){
+            for(int Iterador = 0; Iterador<Cantidad_de_Usuarios; Iterador++){
                 System.out.println("Inserte datos del Usuario "+(Iterador+1)+" : ");
                 System.out.print("Digite su nombre : ");
                 Nombres[Iterador]= input.next();
@@ -49,7 +49,7 @@ public class Arrays_3 {
                 Profesion[Iterador]= input.next();
                 System.out.print("Digite su edad : ");
                 Edades[Iterador]= input.nextInt();
-                System.out.print("Digite su meses de experiencia : ");
+                System.out.print("Digite los meses de experiencia : ");
                 Meses_Experiencia[Iterador]= input.nextInt();
             }
             System.out.println("Datos Guardados . . . ");

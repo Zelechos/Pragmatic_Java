@@ -18,8 +18,8 @@ public class Exercise_0 {
         float [] Numeros  = new float[10];
         
         System.out.println("Guardando los datos en un arreglo : ");
-        for (int iterador = 0;iterador<10;iterador++){
-            System.out.print((iterador+1)+" . Digite un Numero : ");
+        for (int iterador = 0; iterador < 10; iterador++){
+            System.out.print( (iterador+1) + " . Digite un Numero : ");
             Numeros[iterador] = input.nextFloat();
         }
         

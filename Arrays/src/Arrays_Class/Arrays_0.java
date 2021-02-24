@@ -23,7 +23,7 @@ public class Arrays_0 {
         Numero[2] = 4;
         
         //Mostrando los valores del Arreglo
-        System.out.print("El error mas popular es el :  ");
+        System.out.print("El error mas popular de la Web es el :  ");
         
         //Imprimiendo las posiciones del Arreglo directamente
         System.out.print(Numero[0]);

@@ -18,12 +18,12 @@ public class Exercise_2 {
         
         
         //Creamos mi arrglos
-        int Numeros[] = new int[10] , Contador = 0, Media_P = 0, Cont_P = 0,Cont_N = 0,Media_N = 0 ;
-        float Resp_P,Resp_N;
+        int Numeros[] = new int[10] , Contador = 0, Media_P = 0, Cont_P = 0, Cont_N = 0, Media_N = 0 ;
+        float Resp_P, Resp_N;
         
         System.out.println("Digite los numeros del arreglo : ");
-        for(int iterador=0;iterador<10;iterador++){
-            System.out.print((iterador+1)+" . Digite un Numero : ");
+        for(int iterador = 0; iterador < 10; iterador++){
+            System.out.print((iterador+1) + " . Digite un Numero : ");
             Numeros[iterador] = input.nextInt();
             
             if(Numeros[iterador] == 0 ){
@@ -58,7 +58,7 @@ public class Exercise_2 {
         if(Contador == 0){
             System.err.println("NO introdujo Ceros en el arreglo . . .");
         }else{
-            System.out.println("La Cantidas de Ceros es : "+Contador);
+            System.out.println("La Cantidad de Ceros es : "+Contador);
         }
 
       

@@ -14,7 +14,7 @@ public class Arrays_2 {
         
         //Bucle For Normal
         System.out.println("Bucle For Normal : ");
-        for (int Iterador = 0 ; Iterador<Tecnologias.length;Iterador++ ){
+        for (int Iterador = 0 ; Iterador < Tecnologias.length; Iterador++ ){
             System.out.print(Tecnologias[Iterador]+"-");
         }
         System.out.println("");
