@@ -4,14 +4,14 @@
  */
 package com.mycompany.ejertestparam;
 
-
 public class Fibonacci {
-    
+
     public String fibonacci(int lim) {
         int n1 = 0;
         int n2 = 1;
         int aux;
         String x = n1 + "," + n2;
+
         while (n2 + n1 <= lim) {
             aux = n1;
             n1 = n2;
