@@ -18,7 +18,7 @@ public class CalculadoraTest {
     public static List<Object> datos() {
         //devolvera una lista
         return Arrays.asList(new Object[][]{
-            {5, 4}, {4, 6}, {3, 0}, {7, -5}
+            {8, 5}, {10, 7}, {8, 2}, {1, -11}
         });
     }
 
