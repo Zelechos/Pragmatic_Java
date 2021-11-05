@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BoletoService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">boleto.app</a> &gt; <a href="index.source.html" class="el_package">com.com470.boleto.app.service</a> &gt; <span class="el_source">BoletoService.java</span></div><h1>BoletoService.java</h1><pre class="source lang-java linenums">package com.com470.boleto.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.com470.boleto.app.dao.BoletoDao;
+import com.com470.boleto.app.entities.Boleto;
+
+@Service
+<span class="fc" id="L10">public class BoletoService {</span>
+	
+	@Autowired
+	BoletoDao boletoDao;
+
+	public Boleto createBoleto(Boleto boleto) {
+		// TODO Auto-generated method stub
+<span class="fc" id="L17">		return boletoDao.save(boleto);</span>
+	}
+
+	public Boleto getBoletoById(Integer boletoId) {
+		
+<span class="fc" id="L22">		return boletoDao.findOne(boletoId);</span>
+	}
+
+	public Iterable&lt;Boleto&gt; getAllBoletos() {
+<span class="nc" id="L26">		return boletoDao.findAll();</span>
+	}
+
+	public void deleteBoleto(Integer boletoId) {
+<span class="fc" id="L30">		 boletoDao.delete(boletoId);</span>
+		
+<span class="fc" id="L32">	}</span>
+
+	public Boleto updateBoleto(int boletoId, String email) {
+<span class="nc" id="L35">		Boleto boleto = boletoDao.findOne(boletoId);</span>
+<span class="nc" id="L36">		boleto.setEmail(email);</span>
+<span class="nc" id="L37">		return boletoDao.save(boleto);</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

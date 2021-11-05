@@ -1,0 +1,5 @@
+com\com470\boleto\app\Application.class
+com\com470\boleto\app\controller\BoletoController.class
+com\com470\boleto\app\entities\Boleto.class
+com\com470\boleto\app\dao\BoletoDao.class
+com\com470\boleto\app\service\BoletoService.class
