@@ -1,9 +1,10 @@
-# Pragmatic Java Codigo para Aprender y Mucho mas 
+# Welcome Pragmatic_Java !!!!
+<img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="1000" height="250" />
+
 <img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
 
 ### Laboratorio 4 Testing
-<img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
-
 <img align="center" width=500px height=500px alt="side_sticker" src="https://raw.githubusercontent.com/Zelechos/Pragmatic_Java/master/Testing/Coverage.png" />
 
 ### Tests
