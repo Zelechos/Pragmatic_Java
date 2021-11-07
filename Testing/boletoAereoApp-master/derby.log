@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Thu Apr 09 10:59:38 BOT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0171-5f74-2193-000005a7a740 
-on database directory memory:C:\examen com470 parcial 1\BoletoAereoApp\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
-Loaded from file:/C:/Users/user/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+Sat Nov 06 20:54:29 BOT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-017c-f7e3-ba00-000005a78fb8 
+on database directory memory:F:\Repositorios\Pragmatic_Java\Testing\boletoAereoApp-master\testdb with class loader sun.misc.Launcher$AppClassLoader@6d06d69c 
+Loaded from file:/C:/Users/Zelec/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_221-b11
-user.dir=C:\examen com470 parcial 1\BoletoAereoApp
+java.runtime.version=1.8.0_251-b08
+user.dir=F:\Repositorios\Pragmatic_Java\Testing\boletoAereoApp-master
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0

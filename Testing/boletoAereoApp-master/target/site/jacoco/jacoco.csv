@@ -1,5 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-boleto.app,com.com470.boleto.app.service,BoletoService,20,20,0,0,4,5,2,4,2,4
-boleto.app,com.com470.boleto.app.controller,BoletoController,25,3,0,0,6,1,5,1,5,1
-boleto.app,com.com470.boleto.app.entities,Boleto,0,45,0,0,0,19,0,13,0,13
-boleto.app,com.com470.boleto.app,Application,43,0,0,0,12,0,2,0,2,0

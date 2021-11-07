@@ -7,18 +7,17 @@ import com.com470.boleto.app.dao.BoletoDao;
 import com.com470.boleto.app.entities.Boleto;
 
 @Service
-public class BoletoService {
+public class BoletoService{
 	
 	@Autowired
 	BoletoDao boletoDao;
-
+        
 	public Boleto createBoleto(Boleto boleto) {
 		// TODO Auto-generated method stub
 		return boletoDao.save(boleto);
 	}
 
 	public Boleto getBoletoById(Integer boletoId) {
-		
 		return boletoDao.findOne(boletoId);
 	}
 
@@ -28,7 +27,6 @@ public class BoletoService {
 
 	public void deleteBoleto(Integer boletoId) {
 		 boletoDao.delete(boletoId);
-		
 	}
 
 	public Boleto updateBoleto(int boletoId, String email) {
