@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.com470.boleto.app.controller.BoletoControllerTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.477 sec <<< FAILURE! - in com.com470.boleto.app.controller.BoletoControllerTest
-testGetAllBoletos(com.com470.boleto.app.controller.BoletoControllerTest)  Time elapsed: 0.021 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.com470.boleto.app.controller.BoletoControllerTest.testGetAllBoletos(BoletoControllerTest.java:85)
-
-testupdateBoleto(com.com470.boleto.app.controller.BoletoControllerTest)  Time elapsed: 0.003 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.com470.boleto.app.service.BoletoService.updateBoleto(BoletoService.java:34)
-	at com.com470.boleto.app.controller.BoletoControllerTest.testupdateBoleto(BoletoControllerTest.java:136)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 sec - in com.com470.boleto.app.controller.BoletoControllerTest
