@@ -2,15 +2,20 @@ package com.com470.coffeeMackerMockitoApp;
 
 public interface RecipeBook {
 	
-	
 	/**
 	 * Returns the recipe array.
-	 * @param r
+	 * @param void
 	 * @return Recipe[]
 	 */
 	public Recipe[] getRecipes();
-	
-	public boolean addRecipe(Recipe r);
+        
+        
+	/**
+	 * Returns true or false if add the recipe.
+	 * @param recipe
+	 * @return Boolean
+	 */
+	public boolean addRecipe(Recipe recipe);
 	
 	/**
 	 * Returns the name of the recipe deleted at the position specified

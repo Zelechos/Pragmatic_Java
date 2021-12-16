@@ -104,10 +104,114 @@ public class CoffeeMakerTest {
 	 * 		the coffee costs
 	 * Then we get the correct change back.
 	 */
-	@Test
-	public void testMakeCoffee() {
-		coffeeMaker = new CoffeeMaker(recipeBookStub, new Inventory());
-		assertTrue(true);
-	}
+        
+        @Test
+        public void MakeCoffee(){
+            coffeeMaker = new CoffeeMaker(recipeBookStub, new Inventory());
+            assert(true);
+        }
+	
+        @Test
+        public void testAddRecipe(){
+            when(recipeBookStub.addRecipe(recipe1)).thenReturn(true);
+            assertTrue(coffeeMaker.addRecipe(recipe1));
+            verify(recipeBookStub).addRecipe(recipe1);
+        }
+        
+        
+        @Test
+        public void testDeleteRecipe(){
+            when(recipeBookStub.deleteRecipe(0)).thenReturn(stubRecipies[0].getName());
+            assertEquals(coffeeMaker.deleteRecipe(0),stubRecipies[0].getName());
+            verify(recipeBookStub).deleteRecipe(0);
+        }
+        
+        
+        @Test
+        public void testEditRecipe(){
+            when(recipeBookStub.editRecipe(0, recipe1)).thenReturn(stubRecipies[0].getName());
+            assertEquals(coffeeMaker.editRecipe(0, recipe1),stubRecipies[0].getName());
+            verify(recipeBookStub).editRecipe(0, recipe1);
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory1() throws InventoryException {
+            coffeeMaker.addInventory("10", "g", "10", "20");
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory2() throws InventoryException{
+            coffeeMaker.addInventory("c", "20", "10", "20");
+        }   
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory3() throws InventoryException{
+            coffeeMaker.addInventory("10", "40", "10", "t");
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory4() throws InventoryException{
+            coffeeMaker.addInventory("40", "20", "t", "20");
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory5() throws InventoryException{
+            coffeeMaker.addInventory("10", "-20", "10", "20");
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory6() throws InventoryException{
+            coffeeMaker.addInventory("-10", "20", "10", "20");
+        }
+        
+        @Test(expected = InventoryException.class)
+        public void testAddInventory7() throws InventoryException{
+            coffeeMaker.addInventory("10", "20", "10", "-20");
+        }
+        
+        @Test
+        public void testCheckInventory(){
+            String cad = coffeeMaker.checkInventory();
+            System.out.println("inventory"+cad);
+            
+            StringBuffer buf = new StringBuffer();
+            buf.append("Coffee: ");
+            buf.append(15);
+            buf.append("\n");
+            buf.append("Milk: ");
+            buf.append(15);
+            buf.append("\n");
+            buf.append("Sugar: ");
+            buf.append(15);
+            buf.append("\n");
+            buf.append("Chocolate: ");
+            buf.append(15);
+            buf.append("\n");
+            assertEquals(buf.toString(), cad);
+        }
+        
+        @Test
+        public void testMakeCoffee(){
+            when(recipeBookStub.getRecipes()).thenReturn(stubRecipies);
+            assertEquals(50, coffeeMaker.makeCoffee(0, 100));
+        }
+        
+        @Test
+        public void testMakeCoffeeCasoNulo(){
+            when(recipeBookStub.getRecipes()).thenReturn(stubRecipies);
+//            assertEquals(100, coffeeMaker.makeCoffee(3, 100));
+        }
+        
+        @Test
+        public void testMakeCoffeeMontoMenor(){
+            when(recipeBookStub.getRecipes()).thenReturn(stubRecipies);
+            assertEquals(10, coffeeMaker.makeCoffee(0, 10));
+        }
+        
+        @Test
+        public void testMakeCoffeeNoIngredientes(){
+            when(recipeBookStub.getRecipes()).thenReturn(stubRecipies);
+            assertEquals(75, coffeeMaker.makeCoffee(1, 75));
+        }
 		
 }

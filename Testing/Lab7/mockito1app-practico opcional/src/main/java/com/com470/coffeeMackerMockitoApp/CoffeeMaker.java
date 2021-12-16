@@ -4,22 +4,27 @@ package com.com470.coffeeMackerMockitoApp;
 import com.com470.coffeeMackerMockitoApp.exceptions.InventoryException;
 
 /**
- * @author Sarah Heckman
+ * @author Alex Tumiri 
+ * @repository https://github.com/Zelechos/Pragmatic_Java/tree/master/Testing
  */
+
 public class CoffeeMaker {
-	/** Array of recipes in coffee maker */
-	private RecipeBook recipeBook;
-	/** Inventory of the coffee maker */
+    
+    /** Array of recipes in coffee maker */
+    private RecipeBook recipeBook;
+    
+    /** Inventory of the coffee maker */
     private Inventory inventory;
 	
     /**
      * Constructor for the coffee maker
-     *
+     * @param recipeBook
+     * @param inventory
      */
-	public CoffeeMaker(RecipeBook recipeBook, Inventory inventory) {
-	    this.recipeBook = recipeBook;
-	    this.inventory = inventory;
-	}
+    public CoffeeMaker(RecipeBook recipeBook, Inventory inventory) {
+        this.recipeBook = recipeBook;
+        this.inventory = inventory;
+    }
 	
 	/**
 	 * Returns true if the recipe is added to the
@@ -29,7 +34,7 @@ public class CoffeeMaker {
 	 * @return boolean
 	 */
 	public boolean addRecipe(Recipe r) {
-		return recipeBook.addRecipe(r);
+            return recipeBook.addRecipe(r);
 	}
 	
 	/**
