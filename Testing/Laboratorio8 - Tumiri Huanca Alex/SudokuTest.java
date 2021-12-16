@@ -1,38 +1,41 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+package com.mycompany.sudoku;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
 
 public class SudokuTest {
     int[][] tablero = new int [9][9];
 
-
     @Test
     public void solveSudoku9x9Test(){
         Sudoku sudoku = new Sudoku();
-        Assertions.assertEquals(solveSudoku(tablero), sudoku.solveSudoku());
+        
+        assertEquals(solveSudoku(tablero), sudoku.solveSudoku());
     }
 
     @Test
     public void isValidTest() {
         Sudoku sudoku = new Sudoku();
-        Assertions.assertEquals(isValid(1,1,9), sudoku.isValid(1,1,9));
+        assertEquals(isValid(1,1,9), sudoku.isValid(1,1,9));
     }
 
     @Test
     public void containsFilaTest(){
         Sudoku sudoku = new Sudoku();
-        Assertions.assertEquals(containsFila(3,5), sudoku.containsFila(3,5));
+        assertEquals(containsFila(3,5), sudoku.containsFila(3,5));
     }
 
     @Test
     public void containsColumnaTest(){
         Sudoku sudoku = new Sudoku();
-        Assertions.assertEquals(containsColumna(7,9), sudoku.containsColumna(7,9));
+        assertEquals(containsColumna(7,9), sudoku.containsColumna(7,9));
     }
 
     @Test
     public void containsBloqueTest(){
         Sudoku sudoku = new Sudoku();
-        Assertions.assertEquals(containsBloque(1, 2, 2), sudoku.containsBloque(1, 2, 2));
+        assertEquals(containsBloque(1, 2, 2), sudoku.containsBloque(1, 2, 2));
     }
 
     /*Metodos auxiliares*/
