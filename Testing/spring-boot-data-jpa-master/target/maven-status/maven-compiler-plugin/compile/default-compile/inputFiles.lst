@@ -1,0 +1,9 @@
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\controllers\ClienteController.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\SpringBootDataJpaApplication.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\models\entity\Cliente.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\util\paginator\PageItem.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\util\paginator\PageRender.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\models\service\ClienteServiceImpl.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\models\service\IClienteService.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\models\dao\IClienteDao.java
+F:\Repositorios\Pragmatic_Java\Testing\spring-boot-data-jpa-master\src\main\java\com\bolsadeideas\springboot\app\MvcConfig.java

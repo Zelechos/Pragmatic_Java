@@ -1,0 +1,9 @@
+com\bolsadeideas\springboot\app\models\dao\IClienteDao.class
+com\bolsadeideas\springboot\app\models\service\IClienteService.class
+com\bolsadeideas\springboot\app\models\entity\Cliente.class
+com\bolsadeideas\springboot\app\util\paginator\PageItem.class
+com\bolsadeideas\springboot\app\controllers\ClienteController.class
+com\bolsadeideas\springboot\app\SpringBootDataJpaApplication.class
+com\bolsadeideas\springboot\app\util\paginator\PageRender.class
+com\bolsadeideas\springboot\app\MvcConfig.class
+com\bolsadeideas\springboot\app\models\service\ClienteServiceImpl.class

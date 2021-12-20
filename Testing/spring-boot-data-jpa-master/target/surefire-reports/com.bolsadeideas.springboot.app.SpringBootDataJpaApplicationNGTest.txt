@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.315 sec <<< FAILURE! - in com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest
+setUpMethod(com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest)  Time elapsed: 1.211 sec  <<< FAILURE!
+java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker
+	at com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest.setUpMethod(SpringBootDataJpaApplicationNGTest.java:31)
+
