@@ -1,0 +1,3 @@
+
+Estudiante : Tumiri Huanca Alex
+Link de Github : https://github.com/Zelechos/Pragmatic_Java/tree/master/Testing/SegundoParcial
