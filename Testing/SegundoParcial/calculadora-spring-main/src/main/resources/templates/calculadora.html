@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    
+    <title>calculadora</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body bgcolor="#efbc2b">
+    
+    <h1>PRACTICO NRO.2 - COM470</h1>
+
+<h1>Calculadora Simple:</h1>
+<form action="#" th:action="@{/calculadora}" th:object="${operationModel}" method="POST">
+    <input type="text" th:field="*{a}"/>
+    <input type="text" th:field="*{b}"/>
+    <p>
+        <input type="submit" class="button" name="add" value="+"/>
+        <input type="submit" class="button" name="subtract" value="-"/>
+        <input type="submit" class="button" name="multiply" value="*"/>
+        <input type="submit" class="button" name="divide" value="/"/>
+        <input type="submit" class="button" name="clearSimple" value="C"/>
+    </p>
+
+    <h1>Calculadora Avanzada:</h1>
+    <input type="text" th:field="*{c}"/>
+    <p>
+        <input type="submit" class="button" name="fibonacci" value="fib"/>
+        <input type="submit" class="button" name="factorial" value="!"/>
+        <input type="submit" class="button" name="sqrt" value=&#8730 />
+        <input type="submit" class="button" name="power" value="^"/>
+        <input type="submit" class="button" name="clearAdvanced" value="C"/>
+    </p>
+    <h1><p th:text="'Resultado: ' + ${result}"/></h1>
+</form>
+</body>
+</html>
