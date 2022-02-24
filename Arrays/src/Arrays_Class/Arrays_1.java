@@ -1,5 +1,6 @@
 package Arrays_Class;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -31,18 +32,15 @@ public class Arrays_1 {
         
         //Mostrando los caracteres de mi Arreglo
         System.out.println("Los Caracteres son : ");
-        for(int Iterador = 0; Iterador<Cantidad_de_Elementos;Iterador++){
+        for(int Iterador = 0; Iterador < Cantidad_de_Elementos;Iterador++){
         
-            if(Iterador == Cantidad_de_Elementos-1){
-                System.out.print(Letras[Iterador]+"\n");
+            if(Iterador == Cantidad_de_Elementos - 1){
+                System.out.println(Letras[Iterador]);
             }else{
                 System.out.print(Letras[Iterador]+"-");
             }
             
         }
-        
-        
-        
     }
     
 }

@@ -8,7 +8,7 @@ public class Principal {
         int Buscador = 0, Indice = 0;
         boolean Encontrando = false;
 
-//Busqueda Secuencial
+        //Busqueda Secuencial
         while ((Buscador < Cuentas.length) && (Encontrando == false)) {
             if (Cuentas[Buscador].getNumero_de_Cuenta() == Numero_de_Cuenta) {
                 Encontrando = true;
