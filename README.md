@@ -8,7 +8,10 @@
 ## Main folders
 <img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
 
-+ ### [Basics](https://github.com/Zelechos/Pragmatic_Java/tree/master/Vanilla)
++ ### [Algorithms](https://github.com/Zelechos/Pragmatic_Java/tree/master/Algorithms)
+    - Description : is a folder that contains exercises and algorithms injava code
+
++ ### [Basics](https://github.com/Zelechos/Pragmatic_Java/tree/master/Basics)
     - Description : is a folder that contains exercises and basic java code
 
 + ### [Arrays](https://github.com/Zelechos/Pragmatic_Java/tree/master/Arrays)
