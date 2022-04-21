@@ -32,15 +32,13 @@ public class Ejercicios {
         for (int i = 0; i < 10; i++) {
             aux = numbers.get(i);
             
-            if(aux > elder){
-                elder = aux;
-            }
-            
-            
             if(i == 0){
                 minor = numbers.get(i+1);
             }
             
+            if(aux > elder){
+                elder = aux;
+            }
             
             if(aux < minor){
                 minor = aux;
@@ -49,9 +47,6 @@ public class Ejercicios {
         
         System.out.println("The maximum number is : "+ elder);
         System.out.println("The minimum number is : "+ minor);
-
-        
-                
                 
     }
     
