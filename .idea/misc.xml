@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Testing/lab4/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/Lab7/mockito1app-practico opcional/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/sudoku/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/ParcialFinal/Ejecicio2/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/ParcialFinal/Ejercicio1/mockito1app-practico opcional/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/PrimerParcial/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/SegundoParcial/logeoapi/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/SegundoParcial/calculadora-spring-main/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/LearningSelenium/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/boletoAereoApp-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/ejerTestParam - tarea/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/seleniumMercuryApp-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Testing/spring-boot-data-jpa-master/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

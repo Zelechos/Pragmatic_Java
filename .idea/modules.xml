@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Testing/PrimerParcial/ApiParcialUno.iml" filepath="$PROJECT_DIR$/Testing/PrimerParcial/ApiParcialUno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pragmatic_Java.iml" filepath="$PROJECT_DIR$/.idea/Pragmatic_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/boletoAereoApp-master/boleto.app.iml" filepath="$PROJECT_DIR$/Testing/boletoAereoApp-master/boleto.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/SegundoParcial/calculadora-spring-main/calculadora.iml" filepath="$PROJECT_DIR$/Testing/SegundoParcial/calculadora-spring-main/calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/LearningSelenium/demo.iml" filepath="$PROJECT_DIR$/Testing/LearningSelenium/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/ejerTestParam - tarea/ejerTestParam.iml" filepath="$PROJECT_DIR$/Testing/ejerTestParam - tarea/ejerTestParam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/lab4/lab4.iml" filepath="$PROJECT_DIR$/Testing/lab4/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/ParcialFinal/Ejecicio2/lab4 (1).iml" filepath="$PROJECT_DIR$/Testing/ParcialFinal/Ejecicio2/lab4 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/SegundoParcial/logeoapi/logeoapi.iml" filepath="$PROJECT_DIR$/Testing/SegundoParcial/logeoapi/logeoapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/Lab7/mockito1app-practico opcional/mockito1app.iml" filepath="$PROJECT_DIR$/Testing/Lab7/mockito1app-practico opcional/mockito1app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/ParcialFinal/Ejercicio1/mockito1app-practico opcional/mockito1app (1).iml" filepath="$PROJECT_DIR$/Testing/ParcialFinal/Ejercicio1/mockito1app-practico opcional/mockito1app (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/seleniumMercuryApp-master/seleniumMercuryApp.iml" filepath="$PROJECT_DIR$/Testing/seleniumMercuryApp-master/seleniumMercuryApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/spring-boot-data-jpa-master/spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/Testing/spring-boot-data-jpa-master/spring-boot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/sudoku/sudoku.iml" filepath="$PROJECT_DIR$/Testing/sudoku/sudoku.iml" />
+    </modules>
+  </component>
+</project>
