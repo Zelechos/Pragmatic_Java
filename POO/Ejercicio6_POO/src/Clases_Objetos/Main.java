@@ -1,8 +1,8 @@
- package Clases_Objetos;
+package Clases_Objetos;
 
 import java.util.Scanner;
 
-public class Principal {
+public class Main {
 
     public static void main(String[] args) {
 

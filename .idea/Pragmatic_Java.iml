@@ -34,6 +34,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Sockets/Sockets_UDP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Vanilla/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Annotations/01_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Annotations/02_exercise/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
