@@ -6,8 +6,6 @@
         <option value="$PROJECT_DIR$/Testing/lab4/pom.xml" />
         <option value="$PROJECT_DIR$/Testing/Lab7/mockito1app-practico opcional/pom.xml" />
         <option value="$PROJECT_DIR$/Testing/sudoku/pom.xml" />
-        <option value="$PROJECT_DIR$/Testing/ParcialFinal/Ejecicio2/pom.xml" />
-        <option value="$PROJECT_DIR$/Testing/ParcialFinal/Ejercicio1/mockito1app-practico opcional/pom.xml" />
         <option value="$PROJECT_DIR$/Testing/PrimerParcial/pom.xml" />
         <option value="$PROJECT_DIR$/Testing/SegundoParcial/logeoapi/pom.xml" />
         <option value="$PROJECT_DIR$/Testing/SegundoParcial/calculadora-spring-main/pom.xml" />
@@ -19,7 +17,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">
