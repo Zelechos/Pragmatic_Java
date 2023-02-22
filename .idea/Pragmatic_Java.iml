@@ -37,6 +37,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Annotations/01_exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Annotations/02_exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Annotations/03_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ArrayList_and_List/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
