@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Basics.iml" filepath="$PROJECT_DIR$/.idea/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/class.iml" filepath="$PROJECT_DIR$/class/class.iml" />
       <module fileurl="file://$PROJECT_DIR$/comments/comments.iml" filepath="$PROJECT_DIR$/comments/comments.iml" />
       <module fileurl="file://$PROJECT_DIR$/concatenacion_de_textos/concatenacion_de_textos.iml" filepath="$PROJECT_DIR$/concatenacion_de_textos/concatenacion_de_textos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicios/ejercicios.iml" filepath="$PROJECT_DIR$/ejercicios/ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" filepath="$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" />
       <module fileurl="file://$PROJECT_DIR$/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/javadoc/javadoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/variables/variables.iml" filepath="$PROJECT_DIR$/variables/variables.iml" />
