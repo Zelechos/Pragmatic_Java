@@ -38,6 +38,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Annotations/02_exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Annotations/03_exercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ArrayList_and_List/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/comments/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/conversions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/primitive_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/special_characters/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/unary_operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/variables/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

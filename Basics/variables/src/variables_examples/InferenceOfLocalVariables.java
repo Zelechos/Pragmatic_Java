@@ -22,16 +22,16 @@ public class InferenceOfLocalVariables {
          */
 
 //      tenemos el siguiente troso de codigo que es muy redundante
-        URL url = new URL("http://www.oracle.com/");
-        URLConnection conn = url.openConnection();
-        Reader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+//        URL url = new URL("http://www.oracle.com/");
+//        URLConnection conn = url.openConnection();
+//        Reader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 
 //      usando la inferencia de variables se veria asi
-        var url = new URL("http://www.oracle.com/");
-        var conn = url.openConnection();
-        var reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+//        var url = new URL("http://www.oracle.com/");
+//        var conn = url.openConnection();
+//        var reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 
-        /**
+        /*
          * ahora como mencionabamos anteriormente el codigo se ve mejor pero.. si abusamos de la inferencia
          * llegaremos a un punto en donde no sabremos de que Clase son las instancias que estamos creando
          * por esto no se debe abusar de la inferencia de varibles.
@@ -62,10 +62,10 @@ public class InferenceOfLocalVariables {
 //        (int a, int b) -> a + b;
 
 //      a partir de JDK 11 se pueden declarar parametros formales de una expresion lambda con var
-        (var a, var b) -> a + b;// se infiere int
+//        (var a, var b) -> a + b;// se infiere int
 
 //      no se puede mezclar la inferencia con la especificacion de tipo de variable en los parametros de una lambda
-        (var x, y) -> x.process(y) (var x, int y) -> x.process(y)
+//        (var x, y) -> x.process(y) (var x, int y) -> x.process(y)
 
 
         /**
@@ -77,20 +77,20 @@ public class InferenceOfLocalVariables {
 
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        List<Customer> x = dbconn.executeQuery(query);
+//        List<Customer> x = dbconn.executeQuery(query);
 //      CODIGO LIMPIO
-        var custList = dbconn.executeQuery(query);
+//        var custList = dbconn.executeQuery(query);
 //---------------------------------------------------------------------------------
 
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        try (Stream<Customer> result = dbconn.executeQuery(query)) {
-            return result.map().filter().findAny();
-        }
+//        try (Stream<Customer> result = dbconn.executeQuery(query)) {
+//            return result.map().filter().findAny();
+//        }
 //      CODIGO LIMPIO
-        try (var customers = dbconn.executeQuery(query)) {
-            return customers.map().filter().findAny();
-        }
+//        try (var customers = dbconn.executeQuery(query)) {
+//            return customers.map().filter().findAny();
+//        }
 //---------------------------------------------------------------------------------
 
 //      2 .- Minimizar el alcance de las variables locales
@@ -103,36 +103,36 @@ public class InferenceOfLocalVariables {
          */
 
 //      EXAMPLE
-        var items = new ArrayList<item>();
-        items.add(MUST_BE_PROCESSED_LAST);
-        for (var item : items) {
-            ...
-        }
+//        var items = new ArrayList<item>();
+//        items.add(MUST_BE_PROCESSED_LAST);
+//        for (var item : items) {
+//            ...
+//        }
         /**
          * Ahora suponga que para eliminar elementos duplicados, un programador
          * modificara este código para usar un HashSet en lugar de un ArrayList:
          */
 //      MODIFIED CODE
-        var items = new HashSet<item>();
-        items.add(MUST_BE_PROCESSED_LAST);
-        for (var item : items) {
-            ...
-        }
-        /**
+//        var items = new HashSet<item>();
+//        items.add(MUST_BE_PROCESSED_LAST);
+//        for (var item : items) {
+//            ...
+//        }
+        /*
          * Este código ahora tiene un error, ya que los conjuntos no tienen un orden
          * de iteración definido. Sin embargo, es probable que el programador corrija
          * este error de inmediato, ya que los usos de la var items son adyacentes
          * a su declaración.
          */
 
-        /**
+        /*
          * Ahora suponga que este código es parte de un método grande, con un
          * alcance correspondientemente grande para la itemsvariable
          */
-        var items = new HashSet<item>();
+//        var items = new HashSet<item>();
         // 100 lines of code
-        items.add(MUST_BE_PROCESSED_LAST);
-        for (var item : items) {...}
+//        items.add(MUST_BE_PROCESSED_LAST);
+//        for (var item : items) {...}
 
         /**
          * El ejemplo inicial que usa var está perfectamente bien.
@@ -146,49 +146,49 @@ public class InferenceOfLocalVariables {
 //      3 .- Considere aplicar var cuando el inicializador proporciona suficiente informacion al lector
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+//        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
 //      CODIGO LIMPIO
-        var outputStream = new ByteArrayOutputStream(); // crea consicion
+//        var outputStream = new ByteArrayOutputStream(); // crea consicion
 //---------------------------------------------------------------------------------
 
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        BufferedReader reader = Files.newBufferedReader();
-        List<String> stringList = List.of("a", "b", "c");
+//        BufferedReader reader = Files.newBufferedReader();
+//        List<String> stringList = List.of("a", "b", "c");
 
 //      CODIGO LIMPIO
-        var reader = Files.newBufferedReader();
-        var stringList = List.of("a", "b", "c");
+//        var reader = Files.newBufferedReader();
+//        var stringList = List.of("a", "b", "c");
 //---------------------------------------------------------------------------------
 
 
 //      4 .- Use var para dividir expresiones encadenadas o anidadas con variables locales
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        return strings.stream().collect(groupingBy(s -> s, counting())).entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getKey);
+//        return strings.stream().collect(groupingBy(s -> s, counting())).entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getKey);
 
 
 //      CODIGO ORIGINAL REFACTORIZADO
-        Map<String, Long> freqMap = strings.stream().collect(groupingBy(s -> s, counting()));
-        Optional<Map.Entry<String, Long>> maxEntryOpt = freqMap.entrySet().stream().max(Map.Entry.comparingByValue());
-        return maxEntryOpt.map(Map.Entry::getKey);
+//        Map<String, Long> freqMap = strings.stream().collect(groupingBy(s -> s, counting()));
+//        Optional<Map.Entry<String, Long>> maxEntryOpt = freqMap.entrySet().stream().max(Map.Entry.comparingByValue());
+//        return maxEntryOpt.map(Map.Entry::getKey);
 
 
 //      CODIGO LIMPIO CON INFERENCIA DE VARIABLE LOCAL
-        var freqMap = strings.stream().collect(groupingBy(s -> s, counting()));
-        var maxEntryOpt = freqMap.entrySet().stream().max(Map.Entry.comparingByValue());
-        return maxEntryOpt.map(Map.Entry::getKey);
+//        var freqMap = strings.stream().collect(groupingBy(s -> s, counting()));
+//        var maxEntryOpt = freqMap.entrySet().stream().max(Map.Entry.comparingByValue());
+//        return maxEntryOpt.map(Map.Entry::getKey);
 //---------------------------------------------------------------------------------
 
 
 //      5 .- No se preocupe demasiado por la "programacion en la interfaz" con variables locales
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
-        List<String> list = new ArrayList<>();
+//        List<String> list = new ArrayList<>();
 
 //      CODIGO LIMPIO (el compilador infiere que list es de tipo Arraylist<String> y no de tipo List<String>)
-        var list = new Arraylist<>();
+//        var list = new Arraylist<>();
 //---------------------------------------------------------------------------------
 
 
@@ -196,14 +196,14 @@ public class InferenceOfLocalVariables {
 //---------------------------------------------------------------------------------
 //      CODIGO ORIGINAL
         // OK: pero declare las variables de tipo PriorityQueue<Item>
-        PriorityQueue<Item> itemQueue = new PriorityQueue<>(Item);
-        PriorityQueue<Item> itemQueue = new PriorityQueue<>();
-        var itemQueue = new PriorityQueue<Item>();
+//        PriorityQueue<Item> itemQueue = new PriorityQueue<>(Item);
+//        PriorityQueue<Item> itemQueue = new PriorityQueue<>();
+//        var itemQueue = new PriorityQueue<Item>();
 
 //      Es legal usar ambos var y el diamante, pero el tipo inferido cambiará:
 //      CODIGO LIMPIO
         // DANGEROUS: el tipo inferido es PriorityQueue<Object> no new PriorityQueue<>(Item) !!!
-        var itemQueue = new PriorityQueue<>();
+//        var itemQueue = new PriorityQueue<>();
 
 //---------------------------------------------------------------------------------
 
@@ -217,10 +217,10 @@ public class InferenceOfLocalVariables {
         String label = "wombat";
 
 //      CODIGO LIMPIO
-        var ready = true;
-        var ch    = '\ufffd';
-        var sum   = 0L;
-        var label = "wombat";
+//        var ready = true;
+//        var ch    = '\ufffd';
+//        var sum   = 0L;
+//        var label = "wombat";
 //---------------------------------------------------------------------------------
 
 //---------------------------------------------------------------------------------
@@ -230,9 +230,9 @@ public class InferenceOfLocalVariables {
         long base = 17;
 
 //      CODIGO LIMPIO (todas las variables son inferidas con int y esto no es correcto)
-        var flags = 0;
-        var mask = 0x7fff;
-        var base = 17;
+//        var flags = 0;
+//        var mask = 0x7fff;
+//        var base = 17;
 //---------------------------------------------------------------------------------
     }
 }
