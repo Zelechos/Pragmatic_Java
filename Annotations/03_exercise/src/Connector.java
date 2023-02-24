@@ -10,6 +10,8 @@ public class Connector {
                 System.out.println(ethernetMethod.send());
             }
         }
+        new Connector().disconnectEthernet();
+        new Connector().ethernet();
         new Connector().hackedEthernet();
     }
 
