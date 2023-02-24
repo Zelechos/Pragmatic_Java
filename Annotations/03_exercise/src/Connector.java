@@ -10,6 +10,7 @@ public class Connector {
                 System.out.println(ethernetMethod.send());
             }
         }
+        new Connector().hackedEthernet();
     }
 
     @Ethernet
@@ -20,5 +21,8 @@ public class Connector {
     public void disconnectEthernet() {
     }
 
-
+    @Ethernet(send = "ethernet hacked")
+    public void hackedEthernet() {
+        System.err.println("are you no programmer right?");
+    }
 }
