@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/special_characters/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ternary_operator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unary_operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/loops/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

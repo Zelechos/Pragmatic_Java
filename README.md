@@ -34,4 +34,3 @@
 
 + ### [Annotations](https://github.com/Zelechos/Pragmatic_Java/tree/master/Annotations)
     - Description : is a folder that contains Java code that applies different techniques and examples to make annotations in Java
-    
