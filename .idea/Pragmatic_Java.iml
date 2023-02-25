@@ -2,7 +2,53 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+<<<<<<< HEAD
     <content url="file://$MODULE_DIR$" />
+=======
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/01_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/Clase_0/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/concatenacion_de_textos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/ejercicios/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/funciones_en_cuestion_a_requerimientos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/introducir_datos_por_consola/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Files/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio10_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio11_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio12_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio1_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio2_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio3_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio4_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio5_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio6_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio7_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio8_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/POO/Ejercicio9_POO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMI/AhorcadoMultihiloRMI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMI/AhorcadoRMI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMI/OperacionesRMI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMI/ProgramadorRMI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RMI/SeriesRMI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sockets/AhorcadoMultihilo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sockets/ChatSockets/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sockets/Sockets_TCP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sockets/Sockets_UDP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vanilla/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Annotations/01_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Annotations/02_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Annotations/03_exercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ArrayList_and_List/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/comments/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/conversions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/primitive_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/special_characters/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/unary_operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basics/variables/src" isTestSource="false" />
+    </content>
+>>>>>>> 8ac315f22fce1cf698d09cd61f07aa655047e7de
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

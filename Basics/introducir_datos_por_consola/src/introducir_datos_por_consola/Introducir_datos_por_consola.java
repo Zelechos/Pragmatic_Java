@@ -14,20 +14,21 @@ public class Introducir_datos_por_consola {
 
 
     public static void main(String[] args) throws IOException {
-        
+
+        String language;
         //  Ahora veremos dos diferentes maneras de como introducir datos por consola
 
         //  Opcion 1
-        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
-        BufferedReader reader = new BufferedReader(inputStreamReader);
+        var inputStreamReader = new InputStreamReader(System.in);
+        var reader = new BufferedReader(inputStreamReader);
         System.out.print("Type your favorite programming language : ");
-        String language = reader.readLine();
+        language = reader.readLine();
         System.out.println("hello "+ language);
         
         //  Opcion 2
-        Scanner input = new Scanner(System.in);
-        System.out.print("Type your favorite programming language : ");
-        language = input.nextLine();
+        var inputScanner = new Scanner(System.in);
+        System.out.print("Type your favorite programming framework : ");
+        language = inputScanner.nextLine();
         System.out.println("hello "+ language);
         
     }
