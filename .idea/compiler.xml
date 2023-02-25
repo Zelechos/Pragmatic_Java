@@ -6,19 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="seleniumMercuryApp" />
-        <module name="ejerTestParam" />
-        <module name="lab4 (1)" />
-        <module name="sudoku" />
-        <module name="mockito1app" />
-        <module name="calculadora" />
-        <module name="demo" />
-        <module name="ApiParcialUno" />
-        <module name="logeoapi" />
-        <module name="lab4" />
-        <module name="boleto.app" />
-        <module name="spring-boot-data-jpa" />
-        <module name="mockito1app (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
