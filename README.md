@@ -11,6 +11,9 @@
 + ### [Algorithms](https://github.com/Zelechos/Pragmatic_Java/tree/master/Algorithms)
     - Description : is a folder that contains exercises and algorithms injava code
 
++ ### [Annotations](https://github.com/Zelechos/Pragmatic_Java/tree/master/Annotations)
+    - Description : is a folder that contains Java code that applies different techniques and examples to make annotations in Java
+   
 + ### [Basics](https://github.com/Zelechos/Pragmatic_Java/tree/master/Basics)
     - Description : is a folder that contains exercises and basic java code
 
@@ -31,6 +34,3 @@
 
 + ### [Testing](https://github.com/Zelechos/Pragmatic_Java/tree/master/Testing)
     - Description : is a folder that contains Java code that applies different techniques to make tests in Java such as mockito, selenium, TDD
-
-+ ### [Annotations](https://github.com/Zelechos/Pragmatic_Java/tree/master/Annotations)
-    - Description : is a folder that contains Java code that applies different techniques and examples to make annotations in Java
