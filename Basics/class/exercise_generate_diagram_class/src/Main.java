@@ -1,6 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class Main
+ *
+ * @author Alex T.H.
+ * @version v0.0.9
+ */
 public class Main {
     public static void main(String[] args) {
 

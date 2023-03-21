@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" filepath="$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" />
       <module fileurl="file://$PROJECT_DIR$/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/javadoc/javadoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method_reference/method_reference.iml" filepath="$PROJECT_DIR$/method_reference/method_reference.iml" />
       <module fileurl="file://$PROJECT_DIR$/record_class/record_class.iml" filepath="$PROJECT_DIR$/record_class/record_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/variables/variables.iml" filepath="$PROJECT_DIR$/variables/variables.iml" />
     </modules>

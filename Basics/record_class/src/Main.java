@@ -9,7 +9,7 @@ public class Main {
         System.out.println(rectangle.greeting("Alex"));
         System.out.println(rectangle.calculate());
         System.out.println(rectangle.getClass());
-        System.out.println(rectangle.toString());
+        System.out.println(rectangle);
 
         System.out.println(Rectangle.goldenRatio);
         System.out.println(Rectangle.createGoldenRectangle(10));
@@ -17,9 +17,6 @@ public class Main {
 //        Generamos la excepcion gracias al constructor compacto de la clase de registro
         Rectangle rectangle_1 = new Rectangle(4, -1);
         System.out.println(rectangle_1);
-
-
-
 
 
     }

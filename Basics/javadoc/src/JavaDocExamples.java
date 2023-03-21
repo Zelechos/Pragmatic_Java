@@ -1,6 +1,6 @@
 /**
- * Clase JavaDocExamples
- * Ejemplos de como usar Javadoc
+ * Class JavaDocExamples
+ * Example how to use Javadoc
  *
  * @author Alex T.H.
  * @version v0.0.9
