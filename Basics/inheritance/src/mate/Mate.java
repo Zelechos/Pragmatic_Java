@@ -1,3 +1,5 @@
+package mate;
+
 public class Mate {
     private int size;
     private String color;

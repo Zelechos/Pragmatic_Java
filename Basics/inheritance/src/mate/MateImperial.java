@@ -1,3 +1,5 @@
+package mate;
+
 public class MateImperial extends Mate{
 
     private String virolaType;

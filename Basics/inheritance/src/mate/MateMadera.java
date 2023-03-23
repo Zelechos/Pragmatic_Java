@@ -1,3 +1,5 @@
+package mate;
+
 public class MateMadera extends Mate {
 
     private String woodType;

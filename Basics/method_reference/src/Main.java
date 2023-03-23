@@ -1,14 +1,16 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Supplier;
-
 /**
  * Class Main
  * Example how to use Method Reference
  *
  * @author Alex T.H.
  * @version v0.1.0
+ * @since 19.0.2 2023-03-23
  */
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Supplier;
+
 public class Main {
     public static void main(String[] args) {
 

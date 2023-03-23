@@ -1,3 +1,5 @@
+package mate;
+
 public class MatePlastico extends Mate {
 
     private String colorPlastic;
