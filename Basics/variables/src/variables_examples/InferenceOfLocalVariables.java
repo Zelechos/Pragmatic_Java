@@ -1,10 +1,10 @@
 package variables_examples;
 
-import java.io.*;
-import java.net.URL;
-import java.net.URLConnection;
-import java.nio.file.Files;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class InferenceOfLocalVariables {
 
