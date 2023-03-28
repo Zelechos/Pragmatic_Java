@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/final/final.iml" filepath="$PROJECT_DIR$/final/final.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/initialization_blocks/initialization_blocks.iml" filepath="$PROJECT_DIR$/initialization_blocks/initialization_blocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instanceOf/instanceOf.iml" filepath="$PROJECT_DIR$/instanceOf/instanceOf.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" filepath="$PROJECT_DIR$/introducir_datos_por_consola/introducir_datos_por_consola.iml" />
       <module fileurl="file://$PROJECT_DIR$/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/javadoc/javadoc.iml" />
