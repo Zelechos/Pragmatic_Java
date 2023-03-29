@@ -2,7 +2,6 @@
  * @Author : Pragmatic Coder
  * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
  */
-package introducir_datos_por_consola;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +9,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 
-public class Introducir_datos_por_consola {
+public class IntroduceData {
 
 
     public static void main(String[] args) throws IOException {

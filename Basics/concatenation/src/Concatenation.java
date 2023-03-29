@@ -2,9 +2,8 @@
  * @Author : Pragmatic Coder
  * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
  */
-package concatenacion_de_textos;
 
-public class Concatenacion_de_textos {
+public class Concatenation {
 
     public static void main(String[] args) {
         // Primero creamos una varible del tipo String
