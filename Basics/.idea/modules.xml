@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/instanceOf/instanceOf.iml" filepath="$PROJECT_DIR$/instanceOf/instanceOf.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/introduce_data/introduce_data.iml" filepath="$PROJECT_DIR$/introduce_data/introduce_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_beans/java_beans.iml" filepath="$PROJECT_DIR$/java_beans/java_beans.iml" />
       <module fileurl="file://$PROJECT_DIR$/javadoc/javadoc.iml" filepath="$PROJECT_DIR$/javadoc/javadoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/method_overload/method_overload.iml" filepath="$PROJECT_DIR$/method_overload/method_overload.iml" />

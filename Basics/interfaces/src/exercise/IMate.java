@@ -1,3 +1,5 @@
+package exercise;
+
 public interface IMate {
 
     void drinkingMate();
