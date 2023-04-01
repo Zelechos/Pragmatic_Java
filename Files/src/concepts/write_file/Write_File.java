@@ -2,7 +2,7 @@
  * @Autor: Pragmatic Coder
  * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
 */
-package write_file;
+package concepts.write_file;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -129,13 +129,13 @@ public class Write_File {
 "            console.log('box.init()');\n" +
 "\n" +
 "			return this;\n" +
-"        },\n" +
+"        \n" +
 "\n" +
 "		add : function(str){\n" +
 "			alert(\"add\", str);\n" +
 "\n" +
 "			return this;\n" +
-"		},\n" +
+"		\n" +
 "\n" +
 "		remove : function(str){\n" +
 "			alert(\"remove\", str);\n" +

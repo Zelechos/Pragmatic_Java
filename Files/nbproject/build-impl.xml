@@ -588,10 +588,10 @@ is divided into following sections:
                 <j2seproject3:junit-prototype>
                     <customizePrototype>
                         <batchtest todir="${build.test.results.dir}">
-                            <fileset dir="${test.src.dir}" excludes="@{excludes},${excludes}" includes="@{includes}">
+                            <fileset dir="${test.src.dir}" excludes="@{excludes${excludes}" includes="@{includes}">
                                 <filename name="@{testincludes}"/>
                             </fileset>
-                            <fileset dir="${build.test.classes.dir}" excludes="@{excludes},${excludes},${test.binaryexcludes}" includes="${test.binaryincludes}">
+                            <fileset dir="${build.test.classes.dir}" excludes="@{excludes${excludes${test.binaryexcludes}" includes="${test.binaryincludes}">
                                 <filename name="${test.binarytestincludes}"/>
                             </fileset>
                         </batchtest>
@@ -614,7 +614,7 @@ is divided into following sections:
                     <isset property="test.method"/>
                 </condition>
                 <union id="test.set">
-                    <fileset dir="${test.src.dir}" excludes="@{excludes},**/*.xml,${excludes}" includes="@{includes}">
+                    <fileset dir="${test.src.dir}" excludes="@{excludes**/*.xml,${excludes}" includes="@{includes}">
                         <filename name="@{testincludes}"/>
                     </fileset>
                 </union>
@@ -700,7 +700,7 @@ is divided into following sections:
             <sequential>
                 <j2seproject3:junit excludes="@{excludes}" includes="@{includes}" testincludes="@{testincludes}" testmethods="@{testmethods}">
                     <customize>
-                        <jvmarg value="-agentlib:jdwp=transport=${debug-transport},address=${jpda.address}"/>
+                        <jvmarg value="-agentlib:jdwp=transport=${debug-transportaddress=${jpda.address}"/>
                         <customizeDebuggee/>
                     </customize>
                 </j2seproject3:junit>
@@ -882,7 +882,7 @@ is divided into following sections:
             <sequential>
                 <j2seproject1:java classname="@{classname}" classpath="@{classpath}" modulename="@{modulename}" modulepath="@{modulepath}">
                     <customize>
-                        <jvmarg value="-agentlib:jdwp=transport=${debug-transport},address=${jpda.address}"/>
+                        <jvmarg value="-agentlib:jdwp=transport=${debug-transportaddress=${jpda.address}"/>
                         <customizeDebuggee/>
                     </customize>
                 </j2seproject1:java>
@@ -1095,7 +1095,7 @@ is divided into following sections:
     <target depends="init,deps-jar,-pre-pre-compile,-pre-compile, -copy-persistence-xml,-compile-depend" if="have.sources" name="-do-compile">
         <j2seproject3:javac gensrcdir="${build.generated.sources.dir}"/>
         <copy todir="${build.classes.dir}">
-            <fileset dir="${src.dir}" excludes="${build.classes.excludes},${excludes}" includes="${includes}"/>
+            <fileset dir="${src.dir}" excludes="${build.classes.excludes${excludes}" includes="${includes}"/>
         </copy>
     </target>
     <target if="has.persistence.xml" name="-copy-persistence-xml">
@@ -1116,7 +1116,7 @@ is divided into following sections:
     <target depends="init,deps-jar,-pre-pre-compile" name="-do-compile-single">
         <fail unless="javac.includes">Must select some files in the IDE or set javac.includes</fail>
         <j2seproject3:force-recompile/>
-        <j2seproject3:javac excludes="" gensrcdir="${build.generated.sources.dir}" includes="${javac.includes}, module-info.java" sourcepath="${src.dir}"/>
+        <j2seproject3:javac excludes="" gensrcdir="${build.generated.sources.dir}" includes="${javac.includes module-info.java" sourcepath="${src.dir}"/>
     </target>
     <target name="-post-compile-single">
         <!-- Empty placeholder for easier customization. -->
@@ -1277,7 +1277,7 @@ is divided into following sections:
     <target depends="init,-do-jar,-post-jar,-pre-deploy,-check-jlink" if="do.jlink.internal" name="-do-deploy">
         <delete dir="${dist.jlink.dir}" failonerror="false" quiet="true"/>
         <property name="jlink.launcher.name" value="${application.title}"/>
-        <condition else="${module.name}" property="jlink.add.modules" value="${module.name},${jlink.additionalmodules}">
+        <condition else="${module.name}" property="jlink.add.modules" value="${module.name${jlink.additionalmodules}">
             <and>
                 <isset property="jlink.additionalmodules"/>
                 <length length="0" string="${jlink.additionalmodules}" when="greater"/>
@@ -1434,7 +1434,7 @@ is divided into following sections:
         </nbprofiledirect>
         <j2seproject3:junit excludes="${excludes}" includes="${includes}" testincludes="${profile.class}" testmethods="">
             <customize>
-                <jvmarg value="-agentlib:jdwp=transport=${debug-transport},address=${jpda.address}"/>
+                <jvmarg value="-agentlib:jdwp=transport=${debug-transportaddress=${jpda.address}"/>
                 <env key="${profiler.info.pathvar}" path="${profiler.info.agentpath}:${profiler.current.path}"/>
                 <jvmarg value="${profiler.info.jvmargs.agent}"/>
                 <jvmarg line="${profiler.info.jvmargs}"/>
@@ -1508,7 +1508,7 @@ is divided into following sections:
             <classpath>
                 <path path="${javac.classpath}"/>
             </classpath>
-            <fileset dir="${src.dir}" excludes="${bug5101868workaround},${excludes}" includes="${includes}">
+            <fileset dir="${src.dir}" excludes="${bug5101868workaround${excludes}" includes="${includes}">
                 <filename name="**/*.java"/>
             </fileset>
             <fileset dir="${build.generated.sources.dir}" erroronmissingdir="false">
@@ -1601,7 +1601,7 @@ is divided into following sections:
             </customize>
         </j2seproject3:javac>
         <copy todir="${build.test.classes.dir}">
-            <fileset dir="${test.src.dir}" excludes="${build.classes.excludes},${excludes}" includes="${includes}"/>
+            <fileset dir="${test.src.dir}" excludes="${build.classes.excludes${excludes}" includes="${includes}"/>
         </copy>
     </target>
     <target name="-post-compile-test">
@@ -1616,13 +1616,13 @@ is divided into following sections:
     <target depends="init,deps-jar,compile,-init-test-module-properties,-pre-pre-compile-test,-pre-compile-test-single" if="have.tests" name="-do-compile-test-single">
         <fail unless="javac.includes">Must select some files in the IDE or set javac.includes</fail>
         <j2seproject3:force-recompile destdir="${build.test.classes.dir}"/>
-        <j2seproject3:javac apgeneratedsrcdir="${build.test.classes.dir}" classpath="${javac.test.classpath}" debug="true" destdir="${build.test.classes.dir}" excludes="" includes="${javac.includes}, module-info.java" modulepath="${javac.test.modulepath}" processorpath="${javac.test.processorpath}" sourcepath="${test.src.dir}" srcdir="${test.src.dir}">
+        <j2seproject3:javac apgeneratedsrcdir="${build.test.classes.dir}" classpath="${javac.test.classpath}" debug="true" destdir="${build.test.classes.dir}" excludes="" includes="${javac.includes module-info.java" modulepath="${javac.test.modulepath}" processorpath="${javac.test.processorpath}" sourcepath="${test.src.dir}" srcdir="${test.src.dir}">
             <customize>
                 <compilerarg line="${javac.test.compilerargs}"/>
             </customize>
         </j2seproject3:javac>
         <copy todir="${build.test.classes.dir}">
-            <fileset dir="${test.src.dir}" excludes="${build.classes.excludes},${excludes}" includes="${includes}"/>
+            <fileset dir="${test.src.dir}" excludes="${build.classes.excludes${excludes}" includes="${includes}"/>
         </copy>
     </target>
     <target name="-post-compile-test-single">

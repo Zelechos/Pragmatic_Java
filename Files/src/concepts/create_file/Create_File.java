@@ -3,7 +3,7 @@
  * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
 */
 
-package create_file;
+package concepts.create_file;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class Create_File {
     File File;
     
     private void CreateFile(){
-        File = new File("Ether");        
+        File = new File("Ether.md");
         
         try{// la excepcion salta usualmente con rutas absolutas por ejemplo si te equivocas en poner la ruta absoluta . . .
             
@@ -30,7 +30,7 @@ public class Create_File {
     
     private void CreateDirectory(){
             File = new File("web_Pragmatic");
-            
+
             if(File.mkdir()){
                 System.out.println("The Directory "+File.getName()+" has been created successfully . . .");
             }else{
