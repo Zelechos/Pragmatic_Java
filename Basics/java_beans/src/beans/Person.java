@@ -14,10 +14,10 @@ import java.io.Serializable;
  * de usuario para facilitar el desarrollo de aplicaciones. Los JavaBeans también
  * se utilizan para simplificar la gestión de objetos en el código de la aplicación.
  *
- * tambien se utiliza la interfaz Serializable para a la hora de mandar nuestra instancia
- * de la clase de servidor a servidor nuestra instancia de la clase se serialize
+ * tambien se utiliza la interfaz Serializable a la hora de mandar nuestra instancia
+ * de la clase de un servidor a otro, nuestra instancia de la clase se serializa
  * a codigo de bits para que durante el envio no sufra ningun cambio y al llegar
- * al otro servidor de deserializa para obtener los datos del objeto tal cual lo
+ * al otro servidor que deserializa para obtener los datos del objeto tal cual lo
  * enviamos
  */
 
