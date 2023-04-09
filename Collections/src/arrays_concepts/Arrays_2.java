@@ -1,4 +1,4 @@
-package Arrays_Class;
+package arrays_concepts;
 /*
   @author Pragmatic Coder
   Github: https://github.com/Zelechos

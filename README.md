@@ -1,4 +1,4 @@
-# Welcome Pragmatic_Java [[v0.1.7]](https://github.com/Zelechos/Pragmatic_Java/releases/tag/v0.1.7) !!! 
+# Welcome Pragmatic_Java [[v0.2.2]](https://github.com/Zelechos/Pragmatic_Java/releases/tag/v0.2.2) !!! 
 <img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
 
 <img align="center" src="https://miro.medium.com/max/640/1*lhOax3cZATGZwEhG0uTYRA.gif" alt="java" width="1000" height="250" />
@@ -17,8 +17,8 @@
 + ### [Basics](https://github.com/Zelechos/Pragmatic_Java/tree/master/Basics)
     - Description : is a folder that contains exercises and basic java code
 
-+ ### [Arrays](https://github.com/Zelechos/Pragmatic_Java/tree/master/Arrays)
-    - Description : is a folder containing Java code using arrays has various examples and exercises
++ ### [Collections](https://github.com/Zelechos/Pragmatic_Java/tree/master/Collections)
+    - Description : is a folder containing Java code using Collections has various examples and exercises
     
 + ### [Files](https://github.com/Zelechos/Pragmatic_Java/tree/master/Files)
     - Description : is a folder that contains Java code that is used for managing, creating and deleting files
