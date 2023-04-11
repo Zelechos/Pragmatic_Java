@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/class/exercise_generate_diagram_class/exercise_generate_diagram_class.iml" filepath="$PROJECT_DIR$/class/exercise_generate_diagram_class/exercise_generate_diagram_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercises/exercises.iml" filepath="$PROJECT_DIR$/exercises/exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/final/final.iml" filepath="$PROJECT_DIR$/final/final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/initialization_blocks/initialization_blocks.iml" filepath="$PROJECT_DIR$/initialization_blocks/initialization_blocks.iml" />
       <module fileurl="file://$PROJECT_DIR$/instanceOf/instanceOf.iml" filepath="$PROJECT_DIR$/instanceOf/instanceOf.iml" />
