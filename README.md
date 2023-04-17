@@ -1,4 +1,4 @@
-# Welcome Pragmatic_Java [[v0.2.2]](https://github.com/Zelechos/Pragmatic_Java/releases/tag/v0.2.2) !!! 
+# Welcome Pragmatic_Java [[v0.2.4]](https://github.com/Zelechos/Pragmatic_Java/releases/tag/v0.2.4) !!! 
 <img align="center" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="javascript" width="1000"/>
 
 <img align="center" src="https://miro.medium.com/max/640/1*lhOax3cZATGZwEhG0uTYRA.gif" alt="java" width="1000" height="250" />
@@ -33,4 +33,4 @@
     - Description : is a folder that contains Java code applying UDP and TCP sockets with different examples and exercises
 
 + ### [Testing](https://github.com/Zelechos/Pragmatic_Java/tree/master/Testing)
-    - Description : is a folder that contains Java code that applies different techniques to make tests in Java such as mockito, selenium, TDD
+    - Description : is a folder that contains Java code that applies different techniques to make tests in Java such as Junit, Mockito, Selenium, TDD and more
