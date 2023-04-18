@@ -1,5 +1,8 @@
 package dev.test.junit;
 
+import dev.test.payments.PayException;
+import dev.test.payments.PaymentProvider;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,5 +37,10 @@ public class Order implements  ShoppingCart, Payable{
     public void show() {
         this.products.forEach(System.out::println);
 
+    }
+
+    @Override
+    public void pay(PaymentProvider pays) throws PayException {
+        pays.makePayment(1000);
     }
 }

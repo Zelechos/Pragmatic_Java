@@ -1,11 +1,12 @@
 package dev.test.junit;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
+import dev.test.payments.PayException;
+import dev.test.payments.PaymentProvider;
+import dev.test.payments.PaypalProvider;
+import dev.test.payments.WithoutFundToPay;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -35,6 +36,21 @@ public class OrderTest {
     @Test
     public void testTotal() {
         assertEquals(TOTAL, order.total(), "the total cost of products in the order is correct!!");
+    }
+
+    @Test
+    public void testPaypalProvider() {
+        PaymentProvider provider = new PaypalProvider();
+        assertDoesNotThrow(() -> {
+            order.pay(provider);
+        });
+    }
+
+    @Test
+    public void testInvalidPay(){
+        PaymentProvider provider = new WithoutFundToPay();
+        PayException exception = assertThrows(PayException.class, () -> order.pay(provider));
+        assertEquals(exception.getMessage(), "the user don't have funds to pay");
     }
 
 }
