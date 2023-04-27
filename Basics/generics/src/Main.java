@@ -1,3 +1,6 @@
+import example.ConvolutionalNeuralNetwork;
+import example.NeuralNetwork;
+import example.RecurrentNeuralNetwork;
 import generics.Code;
 import generics.GenericClass;
 
@@ -59,6 +62,17 @@ public class Main {
         users.put("lastname", "Turing");
         users.put("isEngineer", true);
         System.out.println(users);
+
+
+        System.out.println("---------------------- Classes with Generics ------------------------");
+
+        ConvolutionalNeuralNetwork cnn = new ConvolutionalNeuralNetwork();
+        NeuralNetwork<ConvolutionalNeuralNetwork> nn = new NeuralNetwork<>(cnn);
+        nn.train();
+
+        RecurrentNeuralNetwork rnn = new RecurrentNeuralNetwork();
+        NeuralNetwork<RecurrentNeuralNetwork> nn_001 = new NeuralNetwork<>(rnn);
+        nn_001.train();
 
     }
 }
