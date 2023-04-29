@@ -32,8 +32,4 @@ public class main {
 
     }
 
-
-    private static String switchMethodTest() {
-
-    }
 }
