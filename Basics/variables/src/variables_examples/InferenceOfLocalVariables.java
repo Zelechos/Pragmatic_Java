@@ -6,6 +6,13 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Learn about inference of local variables in Java
+ *
+ * @author Alex T.H.
+ * @version v0.3.6
+ * @since 10.0.0 2024-01-22
+ */
 public class InferenceOfLocalVariables {
 
     public static void main(String[] args) {

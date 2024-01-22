@@ -16,17 +16,16 @@ public class Programmer {
     private List<String> techSkills;
     private String experience;
 
-//    Aplicamos la sobrecarga de contructores
-
+//  We apply Constructor Overloading 
 
     /**
-     * un Contructor vacio
+     * a Empty Constructor
      */
     public Programmer() {
     }
 
     /**
-     * un Constructor con informacion personal
+     * a Constructor with Personal information 
      *
      * @param name
      * @param lastname
@@ -39,7 +38,7 @@ public class Programmer {
     }
 
     /**
-     * un Constructor con informacion para postular
+     * a Constructor with information to postulate a job
      *
      * @param salary
      * @param education
@@ -54,7 +53,7 @@ public class Programmer {
     }
 
     /**
-     * un Constructor con informacion laboral
+     * a Constructor with Working information
      *
      * @param name
      * @param salary
@@ -69,7 +68,7 @@ public class Programmer {
     }
 
     /**
-     * un Contructor global
+     * a Global Constructor
      *
      * @param name
      * @param lastname

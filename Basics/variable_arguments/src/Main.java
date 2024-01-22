@@ -1,6 +1,5 @@
 /**
- * Main class
- * Use to example of Variables Arguments
+ * Learn about Variables Arguments
  *
  * @author Alex T.H.
  * @version v0.1.3
