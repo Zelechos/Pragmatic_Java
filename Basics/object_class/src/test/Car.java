@@ -1,5 +1,7 @@
 package test;
 
+import java.util.Objects;
+
 /**
  * Learn about Object Class & Equals, HashCode Methods
  *
@@ -68,5 +70,18 @@ public class Car {
         public void setState(String state) {
             this.state = state;
         }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return Objects.equals(brand, car.brand) && Objects.equals(model, car.model) && Objects.equals(color, car.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(brand, model, color);
     }
 }

@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="673dcc73-dbbf-4281-a57e-0514ad863bab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/object_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../constructor_overload/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../constructor_overload/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../constructor_overload/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../constructor_overload/src/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unary_operators/src/UnaryOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unary_operators/src/UnaryOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variable_arguments/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../variable_arguments/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variables/src/variables_examples/InferenceOfLocalVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/src/variables_examples/InferenceOfLocalVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../variables/src/variables_examples/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../variables/src/variables_examples/Variables.java" afterDir="false" />
-    </list>
+    <list default="true" id="673dcc73-dbbf-4281-a57e-0514ad863bab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
