@@ -1,4 +1,4 @@
-package abstracts_classes;
+package abstracts_classes.example1;
 
 /**
  * Learn Abstracts classes
@@ -16,6 +16,6 @@ public class Rectangle extends GeometricFigure{
 
     @Override
     public void draw() {
-        System.out.println("se dibujo un : "+ this.getClass().getSimpleName());
+        System.out.println("a was drawn : "+ this.getClass().getSimpleName());
     }
 }

@@ -1,4 +1,4 @@
-package abstracts_classes;
+package abstracts_classes.example1;
 
 /**
  * Learn Abstracts classes
@@ -11,7 +11,7 @@ public abstract class GeometricFigure {
 
     protected String figureType;
 
-    protected GeometricFigure(String figureType) {
+    public GeometricFigure(String figureType) {
         this.figureType = figureType;
     }
 
