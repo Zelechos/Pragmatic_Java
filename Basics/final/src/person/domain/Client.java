@@ -10,7 +10,7 @@ package person.domain;
 
 public class Client extends PersonTest{
 
-    // nos indica error porque no podemos modificir o sobreescribir un metodo final de la clase padre
+    // nos indica error porque no podemos modificar o sobreescribir un metodo final de la clase padre
     //    public final void print(){
     //        System.out.println("print in client");
     //    }

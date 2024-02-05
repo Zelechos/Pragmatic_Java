@@ -1,46 +1,39 @@
 package abstracts_classes.example2;
 
+import java.util.Map;
+
+/**
+ * Practice Abstracts classes
+ *
+ * @author Alex T.H.
+ * @version v0.4.1
+ * @since 20.0.0 2024-02-05
+ */
 public abstract class Engineers {
 
-    private String speciality;
-    private int yearsOfExperience;
-    private boolean isGraduated;
-    private boolean meetsTheProfile;
+    private final String speciality;
+    private final int yearsOfExperience;
+    private final boolean isGraduated;
 
-    public Engineers(String speciality, int yearsOfExperience, boolean isGraduated, boolean meetsTheProfile) {
+    public Engineers(String speciality, int yearsOfExperience, boolean isGraduated) {
         this.speciality = speciality;
         this.yearsOfExperience = yearsOfExperience;
         this.isGraduated = isGraduated;
-        this.meetsTheProfile = meetsTheProfile;
     }
 
-    public abstract void createProfessionalProfile();
+    public abstract Map<String, Object> createProfessionalProfile();
 
-    public abstract boolean isMeetsTheProfile();
-
-    public abstract void setMeetsTheProfile();
+    public abstract boolean isMeetsTheProfile(Map<String, Object> profile);
 
     public String getSpeciality() {
         return speciality;
-    }
-
-    public void setSpeciality(String speciality) {
-        this.speciality = speciality;
     }
 
     public int getYearsOfExperience() {
         return yearsOfExperience;
     }
 
-    public void setYearsOfExperience(int yearsOfExperience) {
-        this.yearsOfExperience = yearsOfExperience;
-    }
-
     public boolean isGraduated() {
         return isGraduated;
-    }
-
-    public void setGraduated(boolean graduated) {
-        isGraduated = graduated;
     }
 }
