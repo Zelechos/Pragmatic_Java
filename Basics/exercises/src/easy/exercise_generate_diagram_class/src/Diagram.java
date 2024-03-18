@@ -1,3 +1,5 @@
+package easy.exercise_generate_diagram_class.src;
+
 import java.util.Map;
 
 /**
