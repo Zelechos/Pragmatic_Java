@@ -1,6 +1,5 @@
 package exercise;
 
-import java.util.List;
 
 /**
  * Learn Interfaces
