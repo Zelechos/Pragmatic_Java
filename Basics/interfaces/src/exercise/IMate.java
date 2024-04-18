@@ -1,12 +1,24 @@
 package exercise;
 
+import java.util.List;
+
+/**
+ * Learn Interfaces
+ *
+ * @author Alex T.H.
+ * @version v0.4.3
+ * @since 20.0.0 2024-04-18
+ */
 public interface IMate {
 
-    void drinkingMate();
+    void drinkingMate(int temperature);
 
     void addSugar();
 
     void addWater();
 
-    void addGrass();
+    void addHerb();
+
+    void putLightBulb();
+
 }

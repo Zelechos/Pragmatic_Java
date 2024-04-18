@@ -1,6 +1,13 @@
 package example;
 
-public class MongoDB extends Encryption{
+/**
+ * Learn Interfaces
+ *
+ * @author Alex T.H.
+ * @version v0.4.3
+ * @since 20.0.0 2024-04-18
+ */
+public class MongoDB extends Encryption {
     @Override
     public void insert() {
         encryptData();
@@ -34,5 +41,15 @@ public class MongoDB extends Encryption{
     public void decryptData() {
         // some code..
         System.out.println("se desencripto los datos");
+    }
+
+    @Override
+    public void isAuth() {
+        System.out.println("esta autorizado para usar MongoDB");
+    }
+
+    @Override
+    public void token() {
+        System.out.println("Token MongoDB -> d3b71254723495hd3");
     }
 }
