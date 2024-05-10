@@ -1,3 +1,4 @@
+import beans.Message;
 import beans.Person;
 import beans.State;
 
@@ -32,5 +33,14 @@ public class Main {
             exception.printStackTrace();
         }
 
+        // Test my Message Bean
+        Message message = new Message();
+        message.setSender("alexth@gmail.com");
+        message.setReceiver("elon@spacex.com");
+        message.setMessageToSend("hey elon what's up with OPENAI");
+        message.setDateTime();
+
+        System.out.println(message);
     }
+
 }
