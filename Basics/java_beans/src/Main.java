@@ -1,3 +1,4 @@
+import beans.IDE;
 import beans.Message;
 import beans.Person;
 import beans.State;
@@ -41,6 +42,12 @@ public class Main {
         message.setDateTime();
 
         System.out.println(message);
+
+        IDE newIde = new IDE();
+        newIde.setNameIde("AlexCode");
+        newIde.setThemeIde("Dark");
+        newIde.setVersionIde("v0.0.0");
+        System.out.println(newIde);
     }
 
 }
