@@ -80,18 +80,14 @@ public class ServerUDP {
         
         return Respuesta;
     }
-    
-    
-    
-    
-    
-  //Metodo que transforma de String a Entero
+
+   //Metodo que transforma de String a Entero
     public static int TextToNumber (String texto){
         int Number =  Integer.parseInt(texto);
         return Number;
     }
-    
-     //Metodo que Genera el Factorial
+   
+   //Metodo que Genera el Factorial
     public static int Factorial(int Number){
         if(Number == 0 || Number == 1){
             return 1;
