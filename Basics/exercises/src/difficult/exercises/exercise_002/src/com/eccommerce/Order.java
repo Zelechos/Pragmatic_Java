@@ -17,7 +17,7 @@ public class Order {
     private int id;
     private List<Product> products = new ArrayList<>();
 
-    Order() {
+    public Order() {
         if (Order.orderCounter <= 10) {
             this.id = Order.orderCounter++;
         }
@@ -54,7 +54,7 @@ public class Order {
         System.out.println("Products : ");
         System.out.println("---------------------------------------------");
         StringBuilder space = new StringBuilder().repeat(" ", 20);
-        System.out.println("Name"+space+"Price");
+        System.out.println("Name" + space + "Price");
         this.getProducts().stream().forEach((product) -> {
             StringBuilder fields = new StringBuilder().repeat(" ", (24 - product.getName().length()));
             System.out.println(product.getName() + fields + product.getPrice());

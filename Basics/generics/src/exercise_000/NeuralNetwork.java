@@ -1,4 +1,4 @@
-package example;
+package exercise_000;
 
 public class NeuralNetwork<T extends IA> {
 
@@ -9,7 +9,7 @@ public class NeuralNetwork<T extends IA> {
     }
 
     public void train() {
-        String typeOfNeuralNetwork = this.neuralNetwork.getClass().getTypeName();
+        String typeOfNeuralNetwork = this.neuralNetwork.getClass().getSimpleName();
         System.out.println("Training the Neural Network of type --> " + typeOfNeuralNetwork);
     }
 }

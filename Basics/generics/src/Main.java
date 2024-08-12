@@ -1,6 +1,6 @@
-import example.ConvolutionalNeuralNetwork;
-import example.NeuralNetwork;
-import example.RecurrentNeuralNetwork;
+import exercise_000.ConvolutionalNeuralNetwork;
+import exercise_000.NeuralNetwork;
+import exercise_000.RecurrentNeuralNetwork;
 import generics.Code;
 import generics.GenericClass;
 
