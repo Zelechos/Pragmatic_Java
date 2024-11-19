@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package concepts.read_file;
+package concepts.readfile;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,6 +13,13 @@ import java.nio.file.StandardCopyOption;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Learn Files
+ *
+ * @author Alex T.H.
+ * @version v0.5.3
+ * @since 20.0.0 2024-11-19
+ */
 public class ReadFile {
     
        String TextCss = " ";

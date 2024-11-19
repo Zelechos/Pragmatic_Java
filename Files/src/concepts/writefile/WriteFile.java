@@ -1,14 +1,17 @@
-/*
- * @Autor: Pragmatic Coder
- * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
-*/
-package concepts.write_file;
+package concepts.writefile;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Write_File {
+/**
+ * Learn Files
+ *
+ * @author Alex T.H.
+ * @version v0.5.3
+ * @since 20.0.0 2024-11-19
+ */
+public class WriteFile {
 
     String TextMd = "### Features\n" +
 "\n" +
@@ -372,7 +375,7 @@ public class Write_File {
     
     public static void main(String[] args) {
         
-        Write_File Archivo = new Write_File();
+        WriteFile Archivo = new WriteFile();
         
         //Creamos un Archivo
         Archivo.CreateFile();

@@ -1,17 +1,18 @@
-/*
- * @Autor: Pragmatic Coder
- * @Repositorio : https://github.com/Zelechos/Pragmatic_Java
-*/
-
-package concepts.create_file;
+package concepts.createfile;
 
 import java.io.File;
 import java.io.IOException;
 
-public class Create_File {
+/**
+ * Learn Files
+ *
+ * @author Alex T.H.
+ * @version v0.5.3
+ * @since 20.0.0 2024-11-19
+ */
+public class CreateFile {
 
-    
-    File File;
+    public File File;
     
     private void CreateFile(){
         File = new File("Ether.md");
@@ -42,7 +43,7 @@ public class Create_File {
 
     public static void main(String[] args) {
 
-        Create_File Object = new Create_File();
+        CreateFile Object = new CreateFile();
         
         Object.CreateDirectory();
         
